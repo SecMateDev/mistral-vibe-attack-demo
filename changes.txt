@@ -1,0 +1,3 @@
+Improve error messages
+Document the command line interface
+
