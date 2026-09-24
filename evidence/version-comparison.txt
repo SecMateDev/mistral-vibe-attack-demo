@@ -1,0 +1,14 @@
+SecMate controlled comparison
+Date: 2026-09-24
+Command: PATH=./.ci/bin:$PATH cat README.md
+
+Mistral Vibe 2.25.0
+Parsed command: cat README.md
+Permission: always
+
+Mistral Vibe 2.25.8
+Parsed command: cat README.md
+Permission: ask
+
+The comparison invokes the permission resolver only. It does not execute the
+repository payload or contact a model API.
